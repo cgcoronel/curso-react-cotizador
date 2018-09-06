@@ -14,7 +14,7 @@ class Resultado extends Component {
 						classNames="resultado"
 						key={resultado}
 						timeout={{enter: 500, exit: 500}} >
-						<span>{resultado}</span>
+						<span>${resultado}.-</span>
 					</CSSTransition>
 				</TransitionGroup>
 			</div>
